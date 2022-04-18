@@ -1,0 +1,137 @@
+<app-navigation></app-navigation>
+
+<div class="img-container jumbotron text-white jumbotron-image shadow" style="background-image: url('http://www.bhagirathfincare.in/assets/img/about.png');">
+  <h1 class="advertisement">Sign Up</h1>
+  </div>
+
+<!-- <section >
+  <ul class="nav nav-pills mb-3 registration" id="pills-tab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+    </li>
+    
+  </ul>
+  <div class="tab-content registration " id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+      <div class="main">
+
+        <section class="signup">
+        <div class="container">
+        <div class="signup-content">
+        <div class="signup-form">
+        <h2 class="form-title">Sign up</h2>
+        <form method="POST" class="register-form" id="register-form">
+        <div class="form-group">
+        <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+        <input type="text" name="name" id="name" placeholder="Your Name" />
+        </div>
+        <div class="form-group">
+        <label for="email"><i class="zmdi zmdi-email"></i></label>
+        <input type="email" name="email" id="email" placeholder="Your Email" />
+        </div>
+        <div class="form-group">
+        <label for="pass"><i class="zmdi zmdi-lock"></i></label>
+        <input type="password" name="pass" id="pass" placeholder="Password" />
+        </div>
+        <div class="form-group">
+        <label for="re-pass"><i class="zmdi zmdi-lock-outline"></i></label>
+        <input type="password" name="re_pass" id="re_pass" placeholder="Repeat your password" />
+        </div>
+        <div class="form-group">
+        <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
+        <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all statements in <a href="#" class="term-service">Terms of service</a></label>
+        </div>
+        <div class="form-group form-button">
+        <input type="submit" name="signup" id="signup" class="form-submit" value="Register" />
+        </div>
+        </form>
+        </div>
+        <div class="signup-image">
+        <figure><img src="images/signup-image.jpg" alt="sing up image"></figure>
+        <a href="#" class="signup-image-link">I am already member</a>
+        </div>
+        </div>
+        </div>
+        </section>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+    
+  </div>
+</section> -->
+
+<div class="container registration">
+
+  <form [formGroup]="registerform" (ngSubmit)="registerSubmited()" class="border p-3 rounded">
+    <div class="row g-0">
+      <div class="col text-center p-2 mb-2 bg-light">
+        <span class="fs-3">Register</span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col mb-3">
+        <label for="firstname" class="form-label">First Name</label>
+        <input type="text" class="Form-control" id="firstname" formControlName="firstname">
+      </div>
+      <div class="col mb-3">
+        <label for="lastname" class="form-label">Last Name</label>
+        <input type="text" class="Form-control" id="lastname" formControlName="lastname">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" formControlName="email">
+        <div class="form-text"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col mb-3">
+        <label for="number" class="form-label">Mobile Number</label>
+        <input type="text" class="form-control" id="number" formControlName="mobile">
+        <div class="form-text"></div>
+      </div>
+   
+    <div class="col ps-3 mb-3">
+      <div class="m-1">GENDER</div>
+      <div class="form-check form-check-inline">
+        <input type="radio" class="form-check-input" value="m" id="male" formControlName="gender">
+        <label class="form-check-label" for="male">Male</label> 
+      </div>
+      <div class="form-check form-check-inline">
+        <input type="radio" class="form-check-input" value="f" id="female" formControlName="gender">
+        <label class="form-check-label" for="female">Female</label> 
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col mb-3">
+      <label for="pwd">Password</label>
+      <input type="password" class="form-control" id="pwd" formControlName="pwd">
+      <div class="form-text"></div>
+    </div>
+    <div class="col mb-3">
+      <label for="rpwd">Confirm Password</label>
+      <input type="password" class="form-control" id="rpwd" formControlName="rpwd">
+      <div class="form-text"></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-6 offset-3">
+      <div class="d-grid">
+        <button type="submit" class="btn btn-primary">submit</button>
+      </div>
+    </div>
+  </div>
+  </form>
+
+</div>
+ 
+
+
+
+<app-footer></app-footer>

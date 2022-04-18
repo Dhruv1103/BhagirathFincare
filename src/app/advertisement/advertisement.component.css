@@ -1,0 +1,15 @@
+ .img-container{
+    height: 400px;
+    /* background-image: url('D:\maxlink\Bhagirath\BhagirathFincare\src\assets\image\CommonIMG.png'); */
+  
+} 
+
+.advertisement{
+    padding-top: 15%;
+    margin-left: 220px;
+}
+
+.adv-table{
+    border: solid red;
+    margin: 5%;
+}

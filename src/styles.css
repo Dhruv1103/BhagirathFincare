@@ -1,1 +1,132 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* You can add global styles to this file, and also import other style files */
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.dir{
+    background-color: white;
+    color: gray;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+
+.dir-1{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    color: rgb(7, 7, 165);
+}
+.content{
+    font-size: large;
+    /* width: 70%; */
+    margin-left: 250px;
+    
+    margin-right: 250px;
+}
+
+.navbar-nav {
+    margin-left: 40%;
+}
+
+.bg-image{
+    background-image: url('http://www.bhagirathfincare.in/assets/img/slider3_01.png');
+}
+
+.partner-about{
+  
+    background-color: white;
+    padding-top: 50px;
+}
+.row{
+    background-color: white;
+    /* border: solid black; */
+    
+}
+
+.col-xl-6{
+    background-color: yellow;
+    border: solid olivedrab;
+    margin-top: 35px;
+}
+/* .col-md-12{
+    background-color: gray;
+    border: solid palevioletred;
+
+} */
+
+.partner{
+    padding-top: 100px;
+}
+.partner-span{
+    font-weight: bolder;
+    font-size: larger;
+    color: rgb(163, 4, 4);
+    padding-top: 100px;
+}
+
+.card-group{
+    padding-top: 20px;
+    margin: 25px 50px 25px 50px; 
+    background-color: whitesmoke;
+    color: black;
+    text-align-last: center;
+}
+
+.card-details{
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: block;
+    /* background-color: brown; */
+}
+
+.text-center{
+   
+    font-weight: bolder;
+    font-size: large;
+    color: black;
+    margin: 10px 15% 0 15%;
+}
+
+.text-center-card{
+    background-color: whitesmoke;
+    font-weight: bolder;
+    font-size: large;
+    color: black;
+    margin: 0 15% 0 15%;
+}
+
+
+
+.footer-container{
+    background-color: gray;
+    margin: 50px 0px 0px 0px;
+}
+
+.footer-bg{
+    background-color: gray;
+    border: solid red;
+}
+
+.carousel {
+    
+    margin-top: 7%;
+    margin-left:  10px;
+    margin-right: 10px;
+}
+
+.carousel-slide{
+    margin: 5% 5% 5% 5%;
+    align-items: center;
+}
+
+
+/* .jumbotron{
+    background-image:url(assets/image/CommonIMG.png) ;
+} */
